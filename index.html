@@ -1,33 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Personal Portifolio</title>
-</head>
-<body>
-    
-    <nav>
-        <div class="nav-logo">
-            <a href="#">
-                <img src="icons8-logo (1).svg">
-            </a>
-        </div>
+    <!-- Title -->
+    <title>GSilva Portifólio</title>
+    <!-- Meta Tags -->
+    <link rel="stylesheet" href="css/extends.css">
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" </head>
 
-       <ul class="nav-links">
-        <li class="link">Home<a href="#"></a></li>
-        <li class="link">Portifolio<a href="#"></a></li>
-        <li class="link">About<a href="#"></a></li>
-        <li class="link">Contact<a href="#"></a></li>
-       </ul> 
-       <button class="btn">Hire Me</button>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar">
+        <div class="navbar_content max-width mb-0">
+            <a href="/">
+                <p>Logo</p>
+            </a>
+            <ul class="navbar_links">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">contatos</a></li>
+            </ul>
+        </div>
     </nav>
 
 
+    <!-- header -->
+    <header id="#header" class="max-width">
+        <div class="header_left">
+            <h1>Olá! Sou Gustavo Silva Desenvolvedor Junior</h1>
+            <p>Sou um entusiasta de tecnologia e desenvolvimento de software, com experiência prática em JavaScript, C#,
+                e Java.
+                Tenho um interesse especial em desenvolvimento mobile utilizando React Native. Busco minha primeira
+                oportunidade profissional para aplicar e expandir meus conhecimentos.
+                Ao longo do meu percurso, adquiri sólidos conhecimentos em lógica de programação, resolução de problemas
+                e colaboração em equipe. Estou animado para contribuir para projetos inovadores e aprender
+                continuamente.
+            </p>
+            <a href="#about" class="btn btn-primary">Saiba Mais</a>
+        </div>
+        <div class="header_right">
+            <div class="header_image">
+                <img src="phototeste.jpg" alt="Gustavo silva desenvolvedor junior, foto de portifolio" class="Gustavo">
+                <img src="assets/abstract.svg" alt="background" class="background">
+            </div>
+        </div>
+    </header>
 
 
-    <script src="index.js"></script>
+    <!-- Sobre -->
+    <section id="#about" class="about max-width">
+        <div class="about_left">
+            <h2 class="secondary-title"> Além do código: quem sou eu ? </h2>
+            <p> Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre meu trabalho ? </p>
+            <ul>
+                <li><a href="https://www.instagram.com/titiogusta/"><img src="assets/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/gustavo-carmo-silva-5233b6205/"><img src="assets/linkedin.svg"
+                            alt="Linkedin"></a></li>
+                <li><a href="https://github.com/GustaSilva5"><img src="assets/iconmonstr-github-3.svg" alt="Github"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="about_right">
+            <h3 class="tertiary-title mb-m">
+                Desenvolvedor Junior apaixonado por tecnologias e soluções criativas
+            </h3>
+            <p>
+                Olá, sou Gustavo Silva, estudante do 5º semestre de Análise e Desenvolvimento de Sistemas na Unversidade
+                Nove de Julho, apaixonado por tecnologia. Estou em busca da minha primeira experiência na área de
+                desenvolvimento web ou mobile. Tenho dedicado meu tempo ao aprendizado de diversas tecnologias, como
+                Java, C# e Javascript para web, bem como mobile com React Native. Meu objetivo é criar soluções robustas
+                e escaláveis que atendam às necessidades do meu time e dos clientes. Estou entusiasmado em aplicar meu
+                conhecimento e contribuir para projetos inovadores.
+            </p>
+        </div>
+    </section>
+
+    <!-- Habilidades-->
+    <section id="skills" class="skills">
+        <div class="skills__content max-whidt">
+            <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+            <p class="description">
+                Descubra as habilidades e ferramentas que domino e que me permitem criar solucoes
+                criativas e funcionais nos meus estudos 
+            </p>
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/notebook.png" alt="icone de um notbook"> 
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>
+                        Manipulação do DOM e jQuery, Noções Básicas de Responsividade e Design Web, frameworks front-end
+                        como Vue.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/java.svg.svg" alt="SVG Java"> 
+                    </div>
+                    <h3>Desenvolvimento Com Java</h3>
+                    <p>
+                        ntendimento básico de princípios de programação orientada a objetos. Aprendizado Rápido e
+                    capacidade ágil de aprender e aplicar novos conceitos, habilidades básicas de teste e depuraçã
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/phone.png" alt="icone de celular para mobile"> 
+                    </div>
+                    <h3>Desenvolvimento mobile</h3>
+                    <p>
+                        Experiência em integrar APIs simples, como autenticação ou recuperação de dados, em aplicativos
+                        móveis. compreensão básica do desenvolvimento móvel, incluindo conceitos como interfaces de
+                        usuário, navegação e gestão de estado
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/java.svg.svg" alt="icone da lingaguem C#"> 
+                    </div>
+                    <h3>Desenvolvimento Com C#</h3>
+                    <p>
+                        Adaptação à Plataforma .NET, entendimento de como usar as ferramentas e bibliotecas
+                        disponíveis no ecossistema .NET para desenvolver aplicações eficiente, leitura e compreensão
+                        de código existente, Compreensão Básica de Entity Framework 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="scripts/index.js"></script>
 </body>
+
 </html>
